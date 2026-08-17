@@ -215,6 +215,8 @@ def main():
     ap.add_argument("--pitch", type=float, default=0, help="camera pitch -90..90 (default 0)")
     ap.add_argument("--key", default=None, help="Google Maps API key")
     ap.add_argument("--max-points", type=int, default=500, help="safety cap (default 500)")
+    ap.add_argument("--flip", action="store_true",
+                    help="face opposite the direction of travel (looking back down the road)")
     args = ap.parse_args()
 
     key = args.key or os.environ.get("GOOGLE_MAPS_KEY")
@@ -231,6 +233,9 @@ def main():
     print(f"  {route['summary'] or 'route'}: {route['distance_m']} m")
 
     samples = sample_points(route["path"], spacing)
+    if args.flip:
+        for p in samples:
+            p["heading"] = round((p["heading"] + 180) % 360, 1)
     if len(samples) > args.max_points:
         raise SystemExit(f"{len(samples)} points at {spacing} m spacing exceeds cap "
                          f"({args.max_points}). Increase --spacing or --max-points.")
@@ -249,7 +254,7 @@ def main():
     manifest = {
         "route": {k: route[k] for k in ("summary", "distance_m", "start_address", "end_address")},
         "spacing_m": spacing,
-        "size": args.size, "fov": args.fov, "pitch": args.pitch,
+        "size": args.size, "fov": args.fov, "pitch": args.pitch, "flip": args.flip,
         "points": samples,
     }
     with open(os.path.join(args.out, "manifest.json"), "w") as f:
