@@ -1,0 +1,94 @@
+{
+  "route": {
+    "summary": "Lombard St",
+    "distance_m": 187,
+    "start_address": "Lombard St & Hyde St, San Francisco, CA",
+    "end_address": "Lombard St & Leavenworth St, San Francisco, CA"
+  },
+  "spacing_m": 25.0,
+  "size": "640x640",
+  "fov": 90,
+  "pitch": 0,
+  "points": [
+    {
+      "lat": 37.802,
+      "lng": -122.41965,
+      "heading": 73.4,
+      "dist_m": 0,
+      "status": "OK",
+      "pano_id": "bB2PUuDj7VC8iMHeZ-Q4-w",
+      "date": "2022-04",
+      "file": "001_0m.jpg"
+    },
+    {
+      "lat": 37.802085,
+      "lng": -122.419389,
+      "heading": 57.7,
+      "dist_m": 25,
+      "status": "OK",
+      "pano_id": "2kLQnqPse9lJz1wdzJbROg",
+      "date": "2011-03",
+      "file": "002_25m.jpg"
+    },
+    {
+      "lat": 37.802033,
+      "lng": -122.419156,
+      "heading": 61.5,
+      "dist_m": 50,
+      "status": "OK",
+      "pano_id": "CAoSF0NJSE0wb2dLRUlDQWdJRDIzSUtsLXdF",
+      "date": "2020-08",
+      "file": "003_50m.jpg"
+    },
+    {
+      "lat": 37.802108,
+      "lng": -122.418975,
+      "heading": 129.1,
+      "dist_m": 75,
+      "status": "OK",
+      "pano_id": "Qcs3HMoatAOwPUM1ybW0Pg",
+      "date": "2011-03",
+      "file": "004_75m.jpg"
+    },
+    {
+      "lat": 37.802142,
+      "lng": -122.418765,
+      "heading": 35.9,
+      "dist_m": 100,
+      "status": "OK",
+      "pano_id": "QKZVrnboOISZssYDCvfmsg",
+      "date": "2011-03",
+      "file": "005_100m.jpg"
+    },
+    {
+      "lat": 37.802109,
+      "lng": -122.418538,
+      "heading": 63.1,
+      "dist_m": 125,
+      "status": "OK",
+      "pano_id": "kvnIIIMdZHIqHFqmhGg3PQ",
+      "date": "2011-03",
+      "file": "006_125m.jpg"
+    },
+    {
+      "lat": 37.802193,
+      "lng": -122.418324,
+      "heading": 130.2,
+      "dist_m": 150,
+      "status": "OK",
+      "pano_id": "xM56McUypdpd3CgFld6j9Q",
+      "date": "2011-03",
+      "file": "007_150m.jpg"
+    },
+    {
+      "lat": 37.802207,
+      "lng": -122.418101,
+      "heading": 52.8,
+      "dist_m": 175,
+      "status": "OK",
+      "pano_id": "vXGj5HIcKcms_nZ95lSbZQ",
+      "date": "2024-12",
+      "file": "008_175m.jpg"
+    }
+  ]
+}
