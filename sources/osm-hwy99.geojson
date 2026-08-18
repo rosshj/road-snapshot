@@ -1,0 +1,736 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-08-18T00:58:47Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39994071",
+        "bicycle": "yes",
+        "destination": "Squamish;Whistler;Highway 99 North",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "surface": "asphalt",
+        "turn:lanes": "none|through;slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.263954,
+            49.3620734
+          ],
+          [
+            -123.264241,
+            49.3620387
+          ],
+          [
+            -123.264506,
+            49.3620191
+          ],
+          [
+            -123.2647919,
+            49.3619903
+          ],
+          [
+            -123.2650611,
+            49.3619587
+          ],
+          [
+            -123.2653355,
+            49.3619188
+          ],
+          [
+            -123.2656458,
+            49.3618713
+          ],
+          [
+            -123.2661732,
+            49.3617846
+          ],
+          [
+            -123.2666862,
+            49.3616946
+          ],
+          [
+            -123.2672147,
+            49.3615966
+          ],
+          [
+            -123.2677307,
+            49.3614967
+          ],
+          [
+            -123.268249,
+            49.3613933
+          ]
+        ]
+      },
+      "id": "way/39994071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40035942",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "shoulder": "right",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1409199,
+            49.729268
+          ],
+          [
+            -123.1384476,
+            49.7302132
+          ],
+          [
+            -123.1375278,
+            49.7306082
+          ],
+          [
+            -123.1370888,
+            49.730877
+          ],
+          [
+            -123.1364555,
+            49.7312649
+          ],
+          [
+            -123.1359151,
+            49.7317026
+          ],
+          [
+            -123.135459,
+            49.7321571
+          ],
+          [
+            -123.1351144,
+            49.7326081
+          ],
+          [
+            -123.1349096,
+            49.7330359
+          ],
+          [
+            -123.1347584,
+            49.7335252
+          ],
+          [
+            -123.1347126,
+            49.7339463
+          ],
+          [
+            -123.1347243,
+            49.7346502
+          ]
+        ]
+      },
+      "id": "way/40035942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/40118431",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1410215,
+            49.7293467
+          ],
+          [
+            -123.1421229,
+            49.728927
+          ]
+        ]
+      },
+      "id": "way/40118431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/92827446",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1347774,
+            49.7353695
+          ],
+          [
+            -123.1349108,
+            49.7377109
+          ],
+          [
+            -123.1349475,
+            49.7381173
+          ],
+          [
+            -123.13506,
+            49.739499
+          ]
+        ]
+      },
+      "id": "way/92827446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/100678846",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1420149,
+            49.7288394
+          ],
+          [
+            -123.1409199,
+            49.729268
+          ]
+        ]
+      },
+      "id": "way/100678846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/419880365",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1349133,
+            49.7346451
+          ],
+          [
+            -123.1348818,
+            49.7339422
+          ],
+          [
+            -123.1349347,
+            49.7335409
+          ],
+          [
+            -123.1350903,
+            49.7330666
+          ],
+          [
+            -123.1352952,
+            49.7326566
+          ],
+          [
+            -123.1356323,
+            49.7322116
+          ],
+          [
+            -123.13607,
+            49.7317742
+          ],
+          [
+            -123.1366217,
+            49.7313502
+          ],
+          [
+            -123.1376934,
+            49.7306935
+          ],
+          [
+            -123.13859,
+            49.7303343
+          ],
+          [
+            -123.1410215,
+            49.7293467
+          ]
+        ]
+      },
+      "id": "way/419880365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479246277",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "shoulder": "no",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.134764,
+            49.7350285
+          ],
+          [
+            -123.1347669,
+            49.7351023
+          ],
+          [
+            -123.1347774,
+            49.7353695
+          ]
+        ]
+      },
+      "id": "way/479246277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479246278",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "shoulder": "no",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1347243,
+            49.7346502
+          ],
+          [
+            -123.1347469,
+            49.7348658
+          ],
+          [
+            -123.1347527,
+            49.7349209
+          ],
+          [
+            -123.134764,
+            49.7350285
+          ]
+        ]
+      },
+      "id": "way/479246278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479246279",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "shoulder": "no",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.134923,
+            49.7350287
+          ],
+          [
+            -123.1349204,
+            49.7349246
+          ],
+          [
+            -123.1349133,
+            49.7346451
+          ]
+        ]
+      },
+      "id": "way/479246279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/479246282",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "shoulder": "no",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1349433,
+            49.7353555
+          ],
+          [
+            -123.1349325,
+            49.7351824
+          ],
+          [
+            -123.1349277,
+            49.735105
+          ],
+          [
+            -123.134923,
+            49.7350287
+          ]
+        ]
+      },
+      "id": "way/479246282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/480219932",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea to Sky Highway",
+        "oneway": "yes",
+        "ref": "99"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1480836,
+            49.7227159
+          ],
+          [
+            -123.148084,
+            49.7226534
+          ],
+          [
+            -123.14808,
+            49.7223945
+          ]
+        ]
+      },
+      "id": "way/480219932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/480219933",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea to Sky Highway",
+        "oneway": "yes",
+        "ref": "99"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1480913,
+            49.7232372
+          ],
+          [
+            -123.148085,
+            49.7228988
+          ],
+          [
+            -123.148085,
+            49.7227971
+          ],
+          [
+            -123.1480836,
+            49.7227159
+          ]
+        ]
+      },
+      "id": "way/480219933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/480219934",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1440119,
+            49.7281957
+          ],
+          [
+            -123.145372,
+            49.7276849
+          ],
+          [
+            -123.1460782,
+            49.7273813
+          ],
+          [
+            -123.1466537,
+            49.7270545
+          ],
+          [
+            -123.1470814,
+            49.7267221
+          ],
+          [
+            -123.1476229,
+            49.7261783
+          ],
+          [
+            -123.1478778,
+            49.7257678
+          ],
+          [
+            -123.1480141,
+            49.7254601
+          ],
+          [
+            -123.1481163,
+            49.7248419
+          ],
+          [
+            -123.1481096,
+            49.7242847
+          ],
+          [
+            -123.1480913,
+            49.7232372
+          ]
+        ]
+      },
+      "id": "way/480219934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/754494546",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.143115,
+            49.728539
+          ],
+          [
+            -123.1440119,
+            49.7281957
+          ]
+        ]
+      },
+      "id": "way/754494546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/754494547",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.1421229,
+            49.728927
+          ],
+          [
+            -123.143115,
+            49.728539
+          ]
+        ]
+      },
+      "id": "way/754494547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/924606169",
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "motorway",
+        "lanes": "3",
+        "maxspeed": "60",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "sidewalk": "no",
+        "source": "Geobase_Import_2009",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.2373788,
+            49.4560418
+          ],
+          [
+            -123.2373872,
+            49.4558792
+          ],
+          [
+            -123.2373631,
+            49.4556926
+          ],
+          [
+            -123.2372453,
+            49.4552991
+          ]
+        ]
+      },
+      "id": "way/924606169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/926444263",
+        "bicycle": "yes",
+        "expressway": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Sea-to-Sky Highway",
+        "oneway": "yes",
+        "ref": "99",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.14808,
+            49.7223945
+          ],
+          [
+            -123.1480688,
+            49.721602
+          ],
+          [
+            -123.1480068,
+            49.718651
+          ],
+          [
+            -123.1480006,
+            49.7183627
+          ],
+          [
+            -123.1480006,
+            49.7183293
+          ],
+          [
+            -123.1479955,
+            49.7182317
+          ]
+        ]
+      },
+      "id": "way/926444263"
+    }
+  ]
+}
